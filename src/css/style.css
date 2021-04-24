@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+body {
+  background-color: #1a0d0c;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+.toptracks-header {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 75px;
+  color: #e9e3e6;
+}
+.toptracks-subheader {
+  font-family: "Inter", sans-serif;
+  font-weight: "600";
+  text-align: center;
+  font-size: 50px;
+  color: #e9e3e6;
+}
+
+.toptracks-songContainer {
+  background-color: #00cc9c;
+  width: 35%;
+  height: 150px;
+  text-align: center;
+  margin: 0 auto;
+  /*margin-right: 1%;
+  margin-left: 1%;
+  margin-bottom: 1%;*/
+  border-radius: 25px;
+  background-image: "";
+  /*float: left;
+  display: inline;*/
+}
+
+.toptracks-songTitle {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: "1px";
+  position: relative;
+  top: 1%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.toptracks-songArtist {
+  font-family: "Inter", sans-serif;
+  font-weight: "600";
+  position: relative;
+  bottom: 10%;
+}
+.toptracks-playCount {
+  font-family: "Inter", sans-serif;
+  font-weight: "600";
+  position: relative;
+  bottom: 20%;
+  font-size: 10px;
+}
+
+.toptracks-index {
+  font-family: "Inter", sans-serif;
+  font-weight: "600";
+  position: relative;
+  top: 5%;
+}
+
+.toptracks-usernameUpdateBox {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.toptracks-usernameBox {
+  padding: 10px;
+  border: 0;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0toptracks-06);
+  border-radius: 25px;
+  margin: 5px;
+}
+.toptracks-timeBox {
+  padding: 10px;
+  border: 0;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0toptracks-06);
+  border-radius: 25px;
+  margin: 5px;
+  width: 50px;
+}
+
+.toptracks-updateButton {
+  border-radius: 25px;
+  background-color: #e75a7c;
+  padding: 10px;
+  margin: 5px;
+}
+
+/* Navigator */
+
+.navigator-header {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 75px;
+  color: #e9e3e6;
+}
+.navigator-subheader {
+  font-family: "Inter", sans-serif;
+  font-weight: "600";
+  text-align: center;
+  font-size: 50px;
+  color: #e9e3e6;
+}
+
+.navigator-button {
+  border-radius: 10px;
+  background-color: #e75a7c;
+  padding: 30px;
+  margin: 5px;
+  width: 75px;
+  height: 75px;
+  text-decoration: none;
+}
+
+.navigator-button-group {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/* About */
+
+.about-header {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 75px;
+  color: #e9e3e6;
+}
+.about-subheader {
+  font-family: "Inter", sans-serif;
+  font-weight: "400";
+  text-align: center;
+  font-size: 40px;
+  color: #e9e3e6;
+}
+
+.about-group {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.about-github {
+  font-family: "Inter", sans-serif;
+  font-weight: "400";
+  text-align: center;
+  font-size: 10px;
+  color: #e9e3e6;
+  text-decoration: solid;
+  position: absolute;
+  bottom: 1%;
+}
+
+/* Error */
+
+.error-header {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 45px;
+  color: #e9e3e6;
+}
