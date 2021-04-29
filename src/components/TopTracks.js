@@ -1,6 +1,5 @@
-import { configure } from "@testing-library/dom";
 import React, { useEffect, useState } from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { Switch } from "react-router-dom";
 import { LastFMkey } from "../config.js"; //import a config with a LastFM API key with the variable name LastFMkey
 
 function TopTracks() {
