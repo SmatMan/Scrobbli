@@ -7,6 +7,7 @@ import TopTracks from "./components/TopTracks.js";
 import Navigator from "./components/Navigator.js";
 import About from "./components/About.js";
 import Error from "./components/Error.js";
+import Search from "./components/Search.js";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Route path="/" component={Navigator} exact />
       <Route path="/toptracks" component={TopTracks} exact />
       <Route path="/about" component={About} exact />
+      <Route path="/search" component={Search} exact />
       <Route component={Error} />
     </Switch>
   );
